@@ -146,6 +146,7 @@ python -m venv venv
 
 
 3️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 4️⃣ Set up API key
