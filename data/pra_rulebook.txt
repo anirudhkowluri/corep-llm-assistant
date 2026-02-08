@@ -1,0 +1,5 @@
+COREP C 01.00 r010:
+Retained earnings shall be reported in row 010.
+
+COREP C 01.00 r060:
+Total CET1 capital shall be reported in row 060.

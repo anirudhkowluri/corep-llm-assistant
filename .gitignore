@@ -1,0 +1,14 @@
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated files
+regulations.index
+regulations.npy

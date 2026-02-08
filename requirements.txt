@@ -1,0 +1,7 @@
+google-genai
+faiss-cpu
+numpy
+pandas
+streamlit
+pydantic
+python-dotenv

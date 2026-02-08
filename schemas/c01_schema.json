@@ -1,0 +1,18 @@
+{
+  "template": "C 01.00",
+  "currency": "GBP",
+  "rows": [
+    {
+      "row_code": "r010",
+      "description": "Retained earnings",
+      "amount": 0,
+      "rule_reference": ""
+    },
+    {
+      "row_code": "r060",
+      "description": "CET1 Capital",
+      "amount": 0,
+      "rule_reference": ""
+    }
+  ]
+}
