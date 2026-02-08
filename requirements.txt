@@ -3,5 +3,6 @@ faiss-cpu
 numpy
 pandas
 streamlit
+altair<5
 pydantic
 python-dotenv
