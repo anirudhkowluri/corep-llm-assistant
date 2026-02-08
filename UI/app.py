@@ -10,6 +10,14 @@ sys.path.append(root_dir)
 # Load environment variables from .env file
 load_dotenv(os.path.join(root_dir, '.env'))
 
+# Support Streamlit Secrets (for Cloud Deployment)
+if "GOOGLE_API_KEY" not in os.environ:
+    if "GOOGLE_API_KEY" in st.secrets:
+        os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
+    else:
+        st.error("Google API Key not found. Please set it in .env or Streamlit Secrets.")
+        st.stop()
+
 
 from retrieval.retriever import retrieve
 from llm.corep_generator import generate_corep
