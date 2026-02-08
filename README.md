@@ -1,4 +1,5 @@
 1.LLM-Assisted PRA COREP Reporting Assistant (Prototype)
+
 📌 Overview
 
 UK banks regulated by the Prudential Regulation Authority (PRA) must submit COREP regulatory returns that accurately reflect their capital position and prudential metrics. Preparing these returns is complex and error-prone because analysts must manually interpret dense regulatory rules and map them to structured COREP templates.
@@ -63,7 +64,9 @@ Validation Rules
 COREP Extract + Audit Log
 
 5. project structure
-   corep_llm_assistant/
+   
+   
+corep_llm_assistant/
 │
 ├── data/
 │   ├── pra_rulebook.txt          # Sample PRA rule excerpts
@@ -87,6 +90,8 @@ COREP Extract + Audit Log
 │
 ├── requirements.txt
 └── README.md
+
+
 5.Key Concepts Used
 🔹 Retrieval-Augmented Generation (RAG)
 
