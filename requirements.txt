@@ -2,7 +2,6 @@ google-genai
 faiss-cpu
 numpy
 pandas
-streamlit
-altair<5
+streamlit>=1.42.0
 pydantic
 python-dotenv
